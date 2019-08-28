@@ -10,4 +10,6 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 public @interface ExceptionTest {
     Class<? extends Throwable> value();
+
+    String string();
 }
